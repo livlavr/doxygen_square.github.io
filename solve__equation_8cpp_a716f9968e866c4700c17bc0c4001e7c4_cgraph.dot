@@ -1,0 +1,19 @@
+digraph "solve_equation"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="solve_equation",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Function call solve_square() or solve_linear() solves equation in case of find_type_of_square()"];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="find_type_of_square",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$solve__equation_8cpp.html#a9cae33c52650112b82cb824082a67183",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="double_comparing",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$double__compare_8cpp.html#a251267aa96f072f7c78a03fe1b232b20",tooltip="Compares two doubles."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="solve_linear",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$solve__equation_8cpp.html#af8a14a7e5c6cd235f521b87ca39d3d84",tooltip=" "];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="solve_square",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$solve__equation_8cpp.html#aac83004a0d680ca9380bba859275fca2",tooltip=" "];
+  Node5 -> Node3 [id="edge6_Node000005_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}
